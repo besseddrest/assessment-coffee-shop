@@ -1,3 +1,15 @@
+# Coffee Shop
+A code assessment/technical interview question from a recent Front End job interview
+
+1. Given a list of different coffees with assigned 'minutes' (seconds), create a Menu
+2. When a Menu Item is clicked, it's added to the barista's Orders queue
+3. The Barista can only make a single drink at a time
+4. When the Barista is finished making the drink, it is placed on the Counter
+5. Drinks placed on the Counter are picked up within 3 seconds
+
+ToDo:
+1. How do we fix Counter state logic to remove an item 3 seconds after the point it was added? Currently, 1 item is removed from top every 3 seconds.
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
