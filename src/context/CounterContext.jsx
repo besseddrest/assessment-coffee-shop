@@ -12,7 +12,6 @@ export function useCounterUpdateContext() {
 }
 
 export function CounterProvider({ children }) {
-  const [isPickedUp, setIsPickedUp] = useState(false);
   const [counterItems, setCounterItems] = useState([]);
 
   function updateCounterItems(items) {
